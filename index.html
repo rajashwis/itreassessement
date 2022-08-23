@@ -6,6 +6,8 @@
     <meta name = "viewport" content = "width-device-width, initial-scale=1.0"/>
 
     <link href="styles/styles.css" rel = "stylesheet" type = "text/css"/>
+    <link href="styles/footer.css" rel = "stylesheet" type = "text/css"/>
+    <link href="styles/hover animation.css" rel = "stylesheet" type = "text/css"/>
     <script src="scripts/scripts.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,17 +16,28 @@
 </head>
 
 <body>
-    <a href = "top"></a>
     <header>
-        <a href="#" class = "logo">B&W</a>
-            <ul>
-                <li><a href="fav films.html" target="_blank">Film</a></li>
-                <li><a href="fav shows.html" target="_blank">TV</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#"><i class = "fas fa-search"></i></a></li>
-            </ul>
+        <a href="index.html" class = "logo">B&W</a>
+        
+        <ul>
+
+            <li><a href="fav films.html" target="_blank">Film</a></li>
+            <li><a href="fav shows.html" target="_blank">TV</a></li>
+            <li><a href="recents.html" target="_blank">Recents</a>
+                <div class = "submenu">
+                    <ul>
+                        <li><a href="review1.html">EEAAO</a></li>
+                        <li><a href="review2.html">After Yang</a></li>
+                        <li><a href="review3.html">The Sandman</a></li>
+                    </ul>   
+                </div>
+            </li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="#"><i class = "fas fa-search"></i></a></li>
+        
+        </ul>
     </header>
+    <a href = "top"></a>
 
     <section class="banner"></section>
 
@@ -34,23 +47,23 @@
 
         <div class = "row">
             <div class = "newcol1">
-                <img src = "images/singin.jpg"/>
+                <img src = "images/movies/after yang.jpg" alt = "Singing in the Rain (1952)"/>
             </div>
             <div class = "newcol2">
-                <h2><a href="#">THE GOLDEN WORLD OF <br/>
+                <h2><a href="review2.html">THE GOLDEN WORLD OF <br/>
                 OLD HOLLYWOOD</a></h2> <br/>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Sci-fi isn't usually quiet. It's mostly loud, uses all these technical terms, and gives you a completely different universe where more than half of the names are made with a random combination of letters. After Yang doesn't have much of any of the characteristics I mentioned, and yet it is one of the best sci-fi movies I've ever seen..... <a href="review2.html"><strong>[READ]</strong></a>
             </div>
         </div>
 
         <div class = "row">
             <div class = "newcol3">
-                <h2><a href="#">YOUR DREAMS MEAN <br/>
+                <h2><a href="review3.html">YOUR DREAMS MEAN <br/>
                     SO MUCH MORE</h2></a><br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    The Sandman, and many of you will agree with me, is one of the best comic book shows ever. The visuals are grand, the cast is excellent and the stories have been portrayed beautifully. Even though I have not read the comics yet..... <a href="review3.html"><strong>[READ]</strong></a>
             </div>
             <div class = "newcol4">
-                <img src = "images/the sandman.jpg"/>
+                <img src = "images/shows/the sandman.jpg" alt = "The Sandman (2022)"/>
             </div>
         </div>
 
@@ -69,96 +82,118 @@
 
             <div class="row">
                 <div class="favcol">
-                    <img src="images/movies/lego batman.jpg" alt="The Lego Batman Movie (2017)" class="favimg"/>
+                    <img src="images/movies/lego batman.jpg" alt="The Lego Batman Movie (2017)" class="favimg img-resize1"/>
+                    <div class = "overlay overlayBottom">
+                        <div class = "text">
+                            THE LEGO BATMAN MOVIE (2017)
+                        </div>
+                    </div>
                 </div>
 
                 <div class="favcol">
-                    <img src="images/movies/psycho.jpg" alt="The Lego Batman Movie (2017)" class="favimg"/>
+                    <img src="images/movies/psycho.jpg" alt="Psycho (1960)" class="favimg img-resize1"/>
+                    <div class = "overlay overlayBottom">
+                        <div class = "text">
+                            PSYCHO (1960)
+                        </div>
+                    </div>
                 </div>
 
                 <div class="favcol">
-                    <img src="images/movies/social network.jpg" alt="The Lego Batman Movie (2017)" class="favimg"/>
+                    <img src="images/movies/tkoasd.jpg" alt="The Killing Of A Sacred Deer" class="favimg img-resize1"/>
+                    <div class = "overlay overlayBottom">
+                        <div class = "text">
+                            THE KILLING OF A SACRED DEER (2017)
+                        </div>
+                    </div>
                 </div>
 
                 <div class="favcol">
-                    <img src="images/movies/the nice guys.jpg" alt="The Lego Batman Movie (2017)" class="favimg"/>
+                    <img src="images/movies/the nice guys.jpg" alt="The Nice Guys (2016)" class="favimg img-resize1"/>
+                    <div class = "overlay overlayBottom">
+                        <div class = "text">
+                            THE NICE GUYS (2017)
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <br/>
-            <div class = "links">
-                <div class = "more2">
-                    <a href="fav films.html">SEE MORE....</a>
-                </div>
+            <div class = "links more2">
+                <a href="fav films.html">SEE MORE....</a>
             </div>
         </div>
 
     </section>
 
     <section class = "popular">
-        <img src = "images/eeaao.png"/>
+        <div class = "links1">
+            <a href="review1.html">
+                <div class = "container1">
+                    <img src = "images/screenshots/eeaao.png"/>
+                </div>
+                <div class = "poptext">
+                    <h2>Everything Everywhere<br/> All At Once (2022)</h2>
+                </div>
+            </a>
     </section>
 
-    <section class = "favs">
+    <section class = "suggestions">
         <h1>ONE OF THE BEST <br/>REVIEWERS IN TOWN!</h1>
         <span style = "float: right;margin-right: 250px;"><h2>-IMDB</h2></span>
     </section>
 
-    <section class = "favs">
-        <h1>ONE OF THE BEST REVIEWERS IN TOWN!</h1>
-        <span style = "float: right;"><h2>-IMDB</h2></span>
-    </section>
+    <br/><br/><br/><br/><hr/>
 
     <section class = "favs">
-        <h1>ONE OF THE BEST REVIEWERS IN TOWN!</h1>
-        <span style = "float: right;"><h2>-IMDB</h2></span>
+        <h3>[SHRESTHA]'S REVIEWS REMIND YOU OF WHY WE LOVE CINEMA.</h3>
+        <span style = "float: right;"><h2>-ROTTEN TOMATOES</h2></span>
     </section>
 
-    <!--FOOTER-->
-    <section class = "popular">
-        <footer>
-            <div class = "row">
-                <div class = "footercol">
-                    <ul class = "links">
-                        <li><a href="index.html #top">Go to Top</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Site Map</a></li>
-                    </ul>
+    <br/><br/><br/><br/><hr/>
 
-                </div>
-
-                <div class = "footercol">
-                    <div class = "socials">
-                        <h3>FOLLOW</h3>
-                        <ul class = "socials">
-                            <li><a href="#"><i class = "fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class = "fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class = "fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class = "fab fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                
-                <div class = "footercol">
-                    <section class = "oneP">
-                        <h3>SUBSCRIBE</h3>
-                        <form action = ""> <!--CHECH THE CODE-->
-                            <div class = "form-box">
-                                <input type = "email" name = "email" placeholder="Enter Your Email"/>
-                                <button type="submit">SIGN UP</button>
-                            </div>
-                        </form>
-                    </section>
-                </div>
-            </div>
-
-            <div class = "copyr">
-                <p>copyright &copy;2022, rajashwishrestha.com.np, All Rights Resered</p>
-            </div>
-        </footer>
+    <section class = "favs">
+        <h3>I SEE A RAJASHWI 5-STAR REVIEW, I ALREADY KNOW THE FILM WILL NOT DISAPPOINT ME</h3>
+        <span style = "float: right;"><h2>-DEV PATEL</h2></span>
     </section>
+
+    <footer>
+        <div class = "fcol1 links2">
+            <a href="index.html #top">Go To Top</a>
+            <a href="fav films.html">Film</a>
+            <a href="fav shows.html">Tv</a>
+            <div class = "drop">
+                <a href="recents.html">Recents</a>
+                <div class = "submenu">
+                    <a href="review1.html">EEAAO</a>
+                    <a href="review2.html">After Yang</a>
+                    <a href="review3.html">The Sandman</a>
+                </div>
+            </div>
+            <a href="contact.html">Contacts</a>
+            <a href="sitemap.html">Site Map</a>
+        </div>
+
+        <div class = "fcol2">
+            <h3>Follow</h3>
+            <div class = "socials">
+                <i class = "fab fa-facebook"></i>
+                <i class = "fab fa-instagram"></i>
+                <i class = "fab fa-twitter"></i>
+                <i class = "fab fa-imdb"></i>
+            </div>
+        </div>
+
+        <div class = "fcol3">
+            <h3>Subscribe</h3>
+            <form action="">
+                <input type="email" placeholder="Your Email Address" required/>
+                <button type="submit">SIGN UP</button>
+            </form>        
+        </div>
+
+    </footer>
+
     
 </body>
 </html>

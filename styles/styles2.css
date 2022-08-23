@@ -1,0 +1,74 @@
+body {
+    background-color: #ffffff;
+    font-size: 22px;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 65px;
+    padding-top: 120px;
+}
+
+.links a {
+    text-decoration: none;
+    color:#000000;
+    font-weight: 800px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.links1 a {
+    font-size: 17px;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.links1 a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+table {
+    align-self: center;
+    padding: 0px;
+}
+
+form input {
+    padding-left: -500px;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.box {
+    background: #000000;
+    display:flex;
+    color: #ffffff;
+}
+
+.left-box {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background: url(../images/screenshots/afteryang4.png) no-repeat center;
+    background-size: cover;
+}
+
+.right-box {
+    flex-basis: 40%;
+    padding: 40px;
+}
+
+.container .box {
+    margin: 50px;
+}
+
+input {
+    width: 100%;
+}

@@ -5,15 +5,14 @@
     <meta charset="utf-8"/>
     <meta name = "viewport" content = "width-device-width, initial-scale=1.0"/>
 
-    <link href="styles/styles1.css" rel = "stylesheet" type = "text/css"/>
     <link href="styles/header nav.css" rel = "stylesheet" type = "text/css"/>
-    <link href="styles/hover animation.css" rel = "stylesheet" type = "text/css"/>
+    <link href="styles/styles2.css" rel = "stylesheet" type = "text/css"/>
     <link href="styles/footer.css" rel = "stylesheet" type = "text/css"/>
     <script src="scripts/scripts.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Montserrat"/>
-    <title>Raj Reviews (idkkk)</title>
+    <title>Contact Me!</title>
 </head>
 
 <body>
@@ -35,63 +34,73 @@
                 <li><a href="#"><i class = "fas fa-search"></i></a></li>
             </ul>
     </header>
-    <a href = "top"></a>
+    <a name = "top"></a>
 
-    <h1>RECENT REVIEWS</h1>
-     
-    <div class = "links1">
+    <div class = "container">
+        <h1>CONTACT ME!</h1>
+        <div class = "box">
 
-        <section class = "rtopic">
+            <div class = "left-box">
+                
+            </div>
 
-            <a href = "review2.html">
-                    <div class = "container1">
-                        <img src = "images/screenshots/afteryang4.png" class = "resize1"/>
-                    </div>
-            </a>
+            <div class = "right-box">
+                <h3>YOUR INFORMATION</h3>
 
-            <a href = "review2.html">
-                <h1>A MOVIE THAT FEELS LIKE HOME</h1>
-            </a>
-        
-        </section>
+                <form method = "POST" action = "" name = "search" enctype = "multipart/formdata">
+                    <table cellspacing="12">
+                        <tr>
+                            <td width="100%">First Name</td>
+                            <td><input type = "text" placeholder = "Please Enter Your First Name"/></td>
+                        </tr>
+            
+                        <tr>
+                            <td>Last Name</td>
+                            <td><input type = "text" placeholder = "Please Enter Your Last Name"/></td>
+                        </tr>
+            
+                        <tr>
+                            <td>Email</td>
+                            <td><input type = "email" placeholder = "Please Enter Your Name"/></td>
+                        </tr>
+            
+                        <tr>
+                            <td>Gender</td>
+                            <td>
+                                <input type = "radio" name = "gender" value = "M"/>Male
+                                <input type = "radio" name = "gender" value = "F" checked/>Female
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>Favourite Genre</td>
+                            <td>
+                                <select name = "Genres" size = "1">
+                                    <option value = "--">--Please Choose  Favourite Genre--</option>
+                                    <option value = "np">Nepal</option>
+                                    <option value = "us">America</option>
+                                    <option value = "in">India</option>
+                                    <option value = "otr">Other</option>
+                                    </select>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td rowspan = "3">Message</td>
+                            <td colspan="3"><textarea rows = "5" cols = "25" name = "message"></textarea></td>
+                        </tr>
+            
+                    </table>
+                </form>
+            </div>
 
-        <hr/><br/>
-
-        <section class = "rtopic">
-
-            <a href = "review1.html">
-                    <div class = "container1">
-                        <img src = "images/screenshots/eeaao.png" class = "resize1"/>
-                    </div>
-            </a>
-
-            <a href = "review2.html">
-                <h1>A MOVIE THAT FEELS LIKE HOME</h1>
-            </a>
-        
-        </section>
-
-        <hr/><br/>
-
-        <section class = "rtopic">
-
-            <a href = "review3.html">
-                    <div class = "container1">
-                        <img src = "images/screenshots/thesandman1.png" class = "resize1"/>
-                    </div>
-            </a>
-
-            <a href = "review3.html">
-                <h1>A MOVIE THAT FEELS LIKE HOME</h1>
-            </a>
-        
-        </section>
-
+        </div>
     </div>
 
-    <footer>
-        <div class = "fcol1 links">
-            <a href="recents.html #top">Go To Top</a>
+     <!--FOOTER-->
+     <footer>
+        <div class = "fcol1 links1">
+            <a href="fav shows.html">Go To Top</a>
             <a href="fav films.html">Film</a>
             <a href="fav shows.html">Tv</a>
             <div class = "drop">
@@ -125,6 +134,5 @@
         </div>
 
     </footer>
-
 </body>
-</html>
+</html> 
